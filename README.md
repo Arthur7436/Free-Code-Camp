@@ -7,6 +7,7 @@ My goals include:
 + Complete FCC, TOP and CS50
 + Basic cyber security knowledge
 + Basic game dev knowledge
++ Have a nice Portfolio :D
 
 Methods:
 + Code/learn relevant topics at least 1 hour/day :D
