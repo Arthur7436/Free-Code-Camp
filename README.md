@@ -9,7 +9,7 @@ My goals include:
 + Complete FCC, TOP and CS50
 + Basic cyber security knowledge
 + Basic game dev knowledge
-+ Have a nice Portfolio by the end of 12 months
++ Have a nice Portfolio by the end of 2023
 
 Methods:
 + Minimum 1hr of coding per day
