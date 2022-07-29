@@ -14,3 +14,7 @@ My goals include:
 Methods:
 + Minimum 1hr of coding per day
 
+-----------------------------------------------------------------
+
+This repository will be used for all practice projects that are related to HTML/CSS (FCC) 
+
