@@ -3,7 +3,7 @@ Hello!
 
 I have recently started to gain interest within the IT sector around mid 2022 and began to get my hands dirty by attemting to know basic HTML/CSS/JavaScript.
 
-I would like to have this README document to be evidence (as well as keeping a timeline of my projects) of why I started to get into the sector. I aspire to direct myself more towards the Cloud industry after being comfortable with using VSCode/Git/Github etc...
+I would like to have this README document to be evidence (as well as keeping a timeline of my projects) of why I started to get into the sector. I aspire to direct myself more towards the Cloud industry after being comfortable with using VSCode/Git/Github etc... along with understanding how code languages work.
 
 My goals include:
 
