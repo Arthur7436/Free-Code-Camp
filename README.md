@@ -21,5 +21,5 @@ Methods:
 Date written: 2/08/2022
 -----------------------------------------------------------------
 
-This repository will be used for all practice projects that are related to HTML/CSS (FCC) 
+
 
