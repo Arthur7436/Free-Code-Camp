@@ -13,6 +13,7 @@ My goals include:
 
 Methods:
 + Minimum 1hr of coding per day
++ A lot of googling
 
 -----------------------------------------------------------------
 
