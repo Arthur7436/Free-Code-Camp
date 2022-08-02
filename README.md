@@ -8,8 +8,8 @@ I would like to have this README document to be evidence (as well as keeping a t
 My goals include:
 
 + Complete FCC, TOP and CS50
-+ Basic cyber security knowledge
-+ Basic game dev knowledge
++ Basic cyber security knowledge (In my downtime)
++ Basic game dev knowledge (In my downtime)
 + Have a nice Portfolio by the end of 2023
 + Basic Cloud knowledge + projects
 
