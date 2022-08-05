@@ -5,13 +5,14 @@
 <style>
 .background{
     /* background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"); */
-    background: linear-gradient(rgba(83, 45, 223, 0.993)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background: linear-gradient(rgba(241, 241, 241, 0), rgba(240, 236, 236, 0.9)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
     background-size: cover;
     background-repeat: no-repeat; 
     height: 100%;
+    
 }
 .layer{
-    background-color: rgba(26, 2, 245, 0.377);
+    background-color: rgba(53, 36, 209, 0.329);
     position:fixed;
     top: 0;
     left: 0;
@@ -21,7 +22,10 @@
 #title{
     text-align: center;
     color: white; 
-    background:rgba(rgb(235, 227, 227), green, blue, alpha);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    line-height: 50px; 
 }
 
 #caption{
@@ -40,8 +44,8 @@
 
 <body class="background">
         <div class="layer">    
+            <h1 id="title">FreeCodeCamp Survery Form</h1>
+        <div id="caption">Thank you for taking the time to help us improve the platform</div>
         </div>
-<h1 id="title">FreeCodeCamp Survery Form</h1>
-<div id="caption">Thank you for taking the time to help us improve the platform</div>
 </body>
 </html>
