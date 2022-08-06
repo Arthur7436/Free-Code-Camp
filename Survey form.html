@@ -40,7 +40,12 @@
     color: white; 
     font-size: 20px;
 }
-
+#form{
+    top:10px; 
+}
+#label-name{
+    color:white;
+}
 </style>
     </head>
 
@@ -48,9 +53,26 @@
         <div class="layer">    
             <h1 id="title">FreeCodeCamp Survery Form</h1>
         <div id="caption"><em>Thank you for taking the time to help us improve the platform</em></div>
+            <form id="form">
+                <div>
+                 <label for="name" id="label-name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="email" id="email">Email</label>
+                           <input type="text" id="email" placeholder="Enter your Email">
+                   </div>
+                   <div>
+                    <label for="Age" id="Age">Age (Optional)</label>
+                           <input type="text" id="email" placeholder="Age">
+                   </div>
+                   <div>
+                    <label for="current-role" id="current-role">Which option best describes
+                        your current role?
+                    </label>
+                           <input type="text" id="current-role" placeholder="Select current role">
+                   </div>
+            </form>    
         </div>
-    <form id="form">
-
-    </form>
 </body>
 </html>
