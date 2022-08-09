@@ -9,7 +9,7 @@ My goals include:
 
 + Complete Free Code Camp (FCC), The Odin Project (TOP) and CS50
 + Basic cyber security knowledge (In my downtime)
-+ Basic game dev knowledge (In my downtime)
++ Basic cloud knowledge (In my downtime)
 + Have a nice Portfolio by the end of 2023
 + Basic Cloud knowledge + projects
 
