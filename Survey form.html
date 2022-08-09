@@ -11,7 +11,6 @@
 
 <style>
 .background{
-    /* background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"); */
     background: linear-gradient(rgba(241, 241, 241, 0), rgba(240, 236, 236, 0)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
     background-size: cover;
     background-repeat: no-repeat; 
@@ -46,6 +45,9 @@
 #label-name{
     color:white;
 }
+#recommend{
+    color: white;
+}
 </style>
     </head>
 
@@ -61,18 +63,12 @@
                 <div>
                     <label for="label-name" id="label-name">Email</label>
                            <input type="text" id="email" placeholder="Enter your Email">
-                   </div>
-                   <div>
+                </div>
+                <div>
                     <label for="label-name" id="label-name">Age (Optional)</label>
                            <input type="text" id="email" placeholder="Age">
-                   </div>
-                   <!-- <div>
-                    <label for="label-name" id="label-name">Which option best describes
-                        your current role?
-                    </label>
-                           <input type="text" id="label-name" placeholder="Select current role">
-                   </div> -->
-                   <div>
+                </div>
+                <div>
                     <label for="label-name" id="label-name">Which option best describes
                         your current role?
                     </label>
@@ -84,7 +80,13 @@
                         <option value="Prefer not to say">Prefer not to say</option>
                         <option value="Other">Other</option>
                     </select>
-                   </div>
+                </div>
+                <div id="recommend">
+                    <div>Would you recommend FreeCodeCamp to a friend?</div>
+                        <input type="checkbox" name="recommend" value="Definitely">Definitely<br>
+                        <input type="checkbox" name="recommend" value="Maybe">Maybe<br>
+                        <input type="checkbox" name="recommend" value="Not sure">Not sure<br>
+                </div>
             </form>    
         </div>
 </body>
