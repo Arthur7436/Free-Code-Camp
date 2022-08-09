@@ -17,6 +17,7 @@
     height: 100%;
     
 }
+
 .layer{
     background-color: rgba(53, 36, 209, 0.329);
     position:fixed;
@@ -25,6 +26,7 @@
     width: 100%;
     height: 100%; 
 }
+
 #title{
     text-align: center;
     color: white; 
@@ -39,15 +41,23 @@
     color: white; 
     font-size: 20px;
 }
+
 #form{
     top:10px; 
+    text-align: left;
+    
 }
+
 #label-name{
     color:white;
 }
-#recommend{
+
+#question{
     color: white;
+    text-align: left;
+    
 }
+
 </style>
     </head>
 
@@ -55,7 +65,7 @@
         <div class="layer">    
             <h1 id="title">FreeCodeCamp Survery Form</h1>
         <div id="caption"><em>Thank you for taking the time to help us improve the platform</em></div>
-            <form id="form">
+<form id="form">
                 <div>
                  <label for="label-name" id="label-name">Name</label>
                         <input type="text" id="name" placeholder="Enter your name">
@@ -73,7 +83,7 @@
                         your current role?
                     </label>
                     <select name="role" id="role">
-                        <option value="Select current role">Select current role</option>
+                        <option value="Select current role" selected="true" disabled="disabled">Select current role</option>
                         <option value="Student">Student</option>
                         <option value="Full Time Job">Full Time Job</option>
                         <option value="Full Time Learner">Full Time Learner</option>
@@ -81,11 +91,39 @@
                         <option value="Other">Other</option>
                     </select>
                 </div>
-                <div id="recommend">
+                <div id="question">
                     <div>Would you recommend FreeCodeCamp to a friend?</div>
-                        <input type="checkbox" name="recommend" value="Definitely">Definitely<br>
-                        <input type="checkbox" name="recommend" value="Maybe">Maybe<br>
-                        <input type="checkbox" name="recommend" value="Not sure">Not sure<br>
+                        <input type="radio" name="radio">Definitely<br>
+                        <input type="radio" name="radio">Maybe<br>
+                        <input type="radio" name="radio">Not sure<br>
+                </div>
+                <div>
+                    <div id="question">What is your favourite feature of FreeCodeCamp?</div>
+                        <select name="feature" id="feature">
+                            <option value="Select an option" selected="true" disabled="disabled">Select an option</option>
+                            <option value="Challenges">Challenges</option>
+                            <option value="Projects">Projects</option>
+                            <option value="Community">Community</option>
+                            <option value="Open source">Open source</option>
+                        </select>
+                </div>
+                <div id="question">
+                    <div>What would you like to see improved? (check all that apply)</div>
+                        <input type="checkbox" name="Front-end Projects">Front-end Projects</br>
+                        <input type="checkbox" name="Back-end Projects">Back-end Projects</br>
+                        <input type="checkbox" name="Data Visualisation">Data Visualisation</br>
+                        <input type="checkbox" name="Challenges">Challenges</br>
+                        <input type="checkbox" name="Open Source Community">Open Source Community</br>
+                        <input type="checkbox" name="Gitter help rooms">Gitter help rooms</br>
+                        <input type="checkbox" name="Videos">Videos</br>
+                        <input type="checkbox" name="City Meetups">City Meetups</br>
+                        <input type="checkbox" name="Wiki">Wiki</br>
+                        <input type="checkbox" name="Forum">Forum</br>
+                        <input type="checkbox" name="Additional Courses">Additional Courses</br>
+                </div>
+                <div id="question">
+                    <div>Any comments or suggestions?</div>
+                        <input type="text" id="comments" placeholder="Enter your comment here...">
                 </div>
             </form>    
         </div>
