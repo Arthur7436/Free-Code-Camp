@@ -13,7 +13,9 @@
 .background{
     background: linear-gradient(rgba(241, 241, 241, 0), rgba(240, 236, 236, 0)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    t; 
+    background-position: center;
     height: 100%;
     }
 .layer{
@@ -25,17 +27,23 @@
     height: 100%; 
 }
 html {
-    /* min-height: 100vh;
+    min-height: 100vh;
     min-width: 100vw;
-    margin: 0; */
+    margin: 0;
     top: 0;
     bottom: 0;
     left: 0;
     right:0;
-    position:fixed; 
+    position:relative; 
+    background-size: cover;
 }
-html {
-    height: 100%;
+body {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    position:relative; 
+    z-index: -1;
 }
 #title {
     text-align: center;
@@ -76,8 +84,7 @@ html {
     background-color: rgba(105, 199, 105, 0.973);
     transition-duration: 0.4s;
     border: 4px solid black;
-    
-}
+    }
 .button:hover {
     background-color: aquamarine;
     color: black;
@@ -85,7 +92,6 @@ html {
 
 </style>
     </head>
-
 <body class="background">
         <div class="layer">    
             <h1 id="title">FreeCodeCamp Survery Form</h1>
