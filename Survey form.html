@@ -11,16 +11,16 @@
 
 <style>
 .background{
-    background: linear-gradient(rgba(241, 241, 241, 0), rgba(240, 236, 236, 0)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background: linear-gradient(rgba(241, 241, 241, 0), rgba(240, 236, 236, 0)), 
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
     background-size: cover;
-    background-repeat: no-repeat;
-    t; 
+    background-repeat: no-repeat; 
     background-position: center;
     height: 100%;
     }
 .layer{
     background-color: rgba(53, 36, 209, 0.329);
-    position:fixed;
+    position:relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -44,6 +44,7 @@ body {
     right:0;
     position:relative; 
     z-index: -1;
+    line-height: 3;
 }
 #title {
     text-align: center;
@@ -58,10 +59,17 @@ body {
     color: white; 
     font-size: 20px;
 }
-#form {
+form {
     top:10px; 
     text-align: left;
     line-height: 1.5;
+    line-height: 1.4;
+    width: 500rem;
+    margin:auto; 
+    background: rgba(31, 8, 94, 0.664);
+    padding: 3rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
     }
 #label-name {
     color:white;
@@ -73,6 +81,7 @@ body {
 #comments{
     width: 100%;
     padding-bottom: 80px;
+    border-radius: 0.5rem;
 }
 .button {
     width: 100%;
@@ -89,14 +98,25 @@ body {
     background-color: aquamarine;
     color: black;
 }
-
+#name,
+#email,
+#role,
+#feature
+    {
+    display: block;
+    width: 90%;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
 </style>
     </head>
 <body class="background">
         <div class="layer">    
             <h1 id="title">FreeCodeCamp Survery Form</h1>
         <div id="caption"><em>Thank you for taking the time to help us improve the platform</em></div>
-<form id="form">
+        <br>  
+        <form>
+            <div id="label-name">
                 <div>
                  <label for="label-name" id="label-name">Name</label>
                         <input type="text" id="name" placeholder="Enter your name">
@@ -109,10 +129,7 @@ body {
                     <label for="label-name" id="label-name">Age (Optional)</label>
                            <input type="text" id="email" placeholder="Age">
                 </div>
-                <div>
-                    <label for="label-name" id="label-name">Which option best describes
-                        your current role?
-                    </label>
+                    <div id="question">Which option best describes your current role?</div>
                     <select name="role" id="role">
                         <option value="Select current role" selected="true" disabled="disabled">Select current role</option>
                         <option value="Student">Student</option>
@@ -156,7 +173,10 @@ body {
                     <div>Any comments or suggestions?</div>
                         <input type="text" id="comments" placeholder="Enter your comment here...">
                         <input type="submit" value="Submit" class="button">
+                        <br>
+                        <br>
                 </div>
+            </div>
             </form>    
         </div>
 </body>
