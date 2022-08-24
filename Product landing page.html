@@ -30,6 +30,9 @@ body {
     line-height: 2.5;
     font-size: 20px;
     font-weight: 500;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 [type="text"] {
     min-width: 50%;
@@ -39,12 +42,11 @@ body {
 [name="form"] {
     background-color: rgb(233, 194, 22);
     font-weight: 700;
-    display: flex;
     min-width: 20%; 
-    margin-left: 300px;
     line-height: 1.3rem;
     border: none;
-    justify-content: center;
+    display: block
+
 }
 .description {
     text-align: left;
@@ -71,7 +73,8 @@ iframe {
     line-height: 0.9;
     font-size: 15px;
     text-align: center;
-    border: 1px solid black
+    border: 1px solid black;
+    
 }
 .row {
     content: "";
@@ -91,6 +94,10 @@ iframe {
     padding: 10px;
     min-width: 50%;
 }
+footer {
+    text-align: right;
+    
+    }
 </style>
 <head>
     <nav class="navbar">
@@ -151,5 +158,13 @@ iframe {
         <input name="price" type="submit" value="SELECT">
     </div>
 </div>
+<footer>
+    <div class="copyright">
+        <div class="Privacy">Privacy</div>
+        <div class="Terms">Terms</div>
+        <div class="Contact">Contact</div>
+        <em>.Copyright 2016, Origical Trombones</em>
+    </div>
+</footer>
 </body>
 </html>
