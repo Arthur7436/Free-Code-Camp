@@ -60,7 +60,7 @@ h1,h2,h3 {
 }
 iframe {
     margin-left: 200px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     margin-top: 70px;
@@ -70,11 +70,11 @@ iframe {
     width: 33.33%;
     border-width: 10rem;
     border-color: black;
-    line-height: 0.9;
+    line-height: 1.2;
     font-size: 15px;
     text-align: center;
-    border: 1px solid black;
-    
+    border: 1px solid black;   
+    padding: 1rem;
 }
 .row {
     content: "";
@@ -84,6 +84,7 @@ iframe {
     align-items: center;
     justify-content: center;
     margin-top: 60px;
+    column-gap: 40px;
 }
 [name="price"] {
     background-color: rgb(233, 194, 22);
@@ -94,9 +95,14 @@ iframe {
     padding: 10px;
     min-width: 50%;
 }
+#price {
+    margin-top: 1em;
+    font-size: 25px;
+}
+
 footer {
     text-align: right;
-    
+
     }
 </style>
 <head>
@@ -133,27 +139,30 @@ footer {
     </iframe>
 </div>
 <div class="row">
-    <div class="column">TENOR TROMBONE
-        <h1>$600</h1>
+    <div class="column">
+        <div>TENOR TROMBONE</div>
+        <h1 id="price">$600</h1>
         <br>Lorem ipsum<br>
         <br>Lorem ipsum<br>
         <br>Lorem ipsum dolor<br>
         <br>Lorem ipsum<br>
         <input name="price" type="submit" value="SELECT"> 
     </div>
-    <div class="column">BASS TROMBONE
-        <h1>$900</h1>
+    <div class="column">
+        <div>BASS TROMBONE</div>
+        <h1 id="price">$900</h1>
         <br>Lorem ipsum<br>
         <br>Lorem ipsum<br>
         <br>Lorem ipsum dolor<br>
         <br>Lorem ipsum<br>
         <input name="price" type="submit" value="SELECT">
     </div>
-    <div class="column">VALVE TROMBONE
-        <h1>$1200</h1>
-        <br>Plays similar to a Trumpet<br>
-        <br>Great for Jazz Bands<br>
-        <br>Lorem ipsum dolor<br>
+    <div class="column">
+        <div>VALVE TROMBONE</div>
+            <h1 id="price">$1200</h1>
+                <br>Plays similar to a Trumpet<br>
+                <br>Great for Jazz Bands<br>
+                <br>Lorem ipsum dolor<br>
         <br>Lorem ipsum<br>
         <input name="price" type="submit" value="SELECT">
     </div>
