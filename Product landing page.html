@@ -61,6 +61,18 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 70px;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    border-width: 10rem;
+    border-color: black;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 </style>
 <head>
@@ -74,7 +86,7 @@ iframe {
 <body>
     <div class="heading">
         <header>Handcrafted, home-made masterpieces</header>
-            <input type="text" placeholder="Enter your email address">
+            <input type="text" placeholder="Enter your email address" required>
                     <input name="form" type="submit" value="GET STARTED"> 
                 </div>
     <section class="description">
@@ -89,11 +101,35 @@ iframe {
             <p3>for every purchase you make, we will ensure there are no damages
             or faults and we will check and test the pitch of your instrument</p3>
     </section>
-<div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
     title="YouTube video player" frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+    allowfullscreen>
+</iframe>
+<div class="row">
+    <div class="column">TENOR TROMBONE
+        <h1>$600</h1>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum dolor<br>
+        <br>Lorem ipsum<br>
+        <input type="submit" value="SELECT"> 
+    </div>
+    <div class="column">BASS TROMBONE
+        <h1>$900</h1>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum dolor<br>
+        <br>Lorem ipsum<br>
+        <input type="submit" value="SELECT">
+    </div>
+    <div class="column">VALVE TROMBONE
+        <h1>$1200</h1>
+        <br>Plays similar to a Trumpet<br>
+        <br>Great for Jazz Bands<br>
+        <br>Lorem ipsum dolor<br>
+        <br>Lorem ipsum<br>
+    </div>
 </div>
 </body>
 </html>
