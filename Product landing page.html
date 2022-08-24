@@ -36,7 +36,7 @@ body {
     text-align: left;
     padding: 0.3rem;
 }
-[type="submit"] {
+[name="form"] {
     background-color: rgb(233, 194, 22);
     font-weight: 700;
     display: flex;
@@ -64,15 +64,29 @@ iframe {
     margin-top: 70px;
 }
 .column{
-    float: left;
+    float:left;
     width: 33.33%;
     border-width: 10rem;
     border-color: black;
+    line-height: 0.9;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black
 }
-.row:after {
+.row {
     content: "";
     display: table;
     clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+[type="submit"] {
+    background-color: rgb(233, 194, 22);
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
 }
 </style>
 <head>
@@ -101,11 +115,13 @@ iframe {
             <p3>for every purchase you make, we will ensure there are no damages
             or faults and we will check and test the pitch of your instrument</p3>
     </section>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
     title="YouTube video player" frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
-</iframe>
+    </iframe>
+</div>
 <div class="row">
     <div class="column">TENOR TROMBONE
         <h1>$600</h1>
@@ -129,6 +145,7 @@ iframe {
         <br>Great for Jazz Bands<br>
         <br>Lorem ipsum dolor<br>
         <br>Lorem ipsum<br>
+        <input type="submit" value="SELECT">
     </div>
 </div>
 </body>
