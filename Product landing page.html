@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--Date started: August 23rd-->
-<!--Date completed:-->
+<!--Date completed: September 2nd-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,9 +25,14 @@ body {
     color: #fff; 
     width: 99%;
     height: 50px;
-    margin-left: -8px;
+    margin-left: -10px;
     margin-top: -8px;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.pricing {
+    margin-right: 70px;
 }
 .logo {
     width: 33%;
@@ -144,11 +149,11 @@ footer {
 }
 .features:hover, .how-it-works:hover, .pricing:hover {
     background-color: rgb(12, 94, 94);    
-    padding: 2rem;
-    display: block;
+    padding: 3rem;
     overflow: hidden;
     max-width: 100%;
     max-height: 100%;
+    border: 1px solid transparent;
 
 }
 </style>
@@ -157,7 +162,7 @@ footer {
         <div class="logo"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo"></div>
         <div class="features"><a href="#featured" id="nav-link"></a>Features</div>
         <div class="how-it-works"><a href="#video" id="nav-link"></a>How it works</div>
-        <div class="pricing"><a href="#prices" id="nav-link"></a>Pricing</div>
+        <div class="pricing"><a href="column" id="nav-link"></a>Pricing</div>
     </nav>
 </header>
 <body>
@@ -201,7 +206,7 @@ footer {
         <br>Lorem ipsum<br>
         <br>Lorem ipsum dolor<br>
         <br>Lorem ipsum<br>
-        <input name="price" type="submit" value="SELECT"> 
+        <input name="price" type="submit" href="" value="SELECT"> 
     </div>
     <div class="column">
         <div id="instrument">BASS TROMBONE</div>
@@ -210,7 +215,7 @@ footer {
         <br>Lorem ipsum<br>
         <br>Lorem ipsum dolor<br>
         <br>Lorem ipsum<br>
-        <input name="price" type="submit" value="SELECT">
+        <input name="price" type="submit" href="" value="SELECT">
     </div>
     <div class="column">
         <div id="instrument">VALVE TROMBONE</div>
@@ -219,7 +224,7 @@ footer {
                 <br>Great for Jazz Bands<br>
                 <br>Lorem ipsum dolor<br>
         <br>Lorem ipsum<br>
-        <input name="price" type="submit" value="SELECT">
+        <input name="price" type="submit" href="" value="SELECT">
     </div>
 </div>
 <footer>
