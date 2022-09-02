@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--Date started: August 23rd-->
+<!--Date completed: September 2nd-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arthur Thai">
+<title>Product landing page</title>
+</head>
+<style>
+html {
+    max-width: 100%;
+}
+body {
+    background-color:gainsboro;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff; 
+    width: 99%;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: -8px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.pricing {
+    margin-right: 70px;
+}
+.logo {
+    width: 33%;
+    height: 100%;
+    margin-right:;
+    display: flex;
+    justify-content: space-around;
+     
+}
+.heading {
+    text-align: center;
+    margin-top: 120px;
+    line-height: 2.5;
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+}
+[type="text"] {
+    min-width: 50%;
+    text-align: left;
+    padding: 0.3rem;
+}
+[name="form"] {
+    background-color: rgb(233, 194, 22);
+    font-weight: 700;
+    width: 20%; 
+    line-height: 1.3rem;
+    border: none;
+    display: block;
+    margin-left: 540px;
+        
+}
+.description {
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 300px;
+    margin-top: 70px; 
+    font-size: large;
+}
+h1,h2,h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+iframe {
+    margin-left: 400px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.column{
+    float:left;
+    width: 33.33%;
+    border-width: 10rem;
+    border-color: black;
+    line-height: 1.2;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;   
+    padding: 1rem;
+}
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    column-gap: 40px;
+}
+[name="price"] {
+    background-color: rgb(233, 194, 22);
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    min-width: 50%;
+}
+#price {
+    margin-top: 1em;
+    font-size: 25px;
+}
+#instrument {
+    background-color: rgb(199, 191, 191);
+    padding: 1.5rem;     
+}
+
+footer {
+    text-align: right;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: rgb(199, 191, 191);
+    width: 70%;
+    margin-bottom: -10px;
+
+    
+    }
+.copyright {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 700px;
+}
+#premium, #shipping, #assurance {
+    margin-block: 4rem;
+}
+.features, .how-it-works, .pricing {
+    margin-left: 70px;
+    font-size: 20px;
+}
+.features:hover, .how-it-works:hover, .pricing:hover {
+    background-color: rgb(12, 94, 94);    
+    padding: 3rem;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid transparent;
+
+}
+</style>
+<header>
+    <nav class="navbar">
+        <div class="logo"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo"></div>
+        <div class="features"><a href="#featured" id="nav-link"></a>Features</div>
+        <div class="how-it-works"><a href="#video" id="nav-link"></a>How it works</div>
+        <div class="pricing"><a href="column" id="nav-link"></a>Pricing</div>
+    </nav>
+</header>
+<body>
+    <div class="heading">
+        <header><strong>Handcrafted, home-made masterpieces</strong></header>
+            <form action="https://www.freecodecamp.com/email-submit">   
+                    <input type="text" placeholder="Enter your email address" required>
+                    <input name="form" type="submit" value="GET STARTED"> 
+            </form>
+                </div>
+<section class="description">
+    <div id="premium">
+        <h1><strong>Premium Materials</strong></h1>
+            <p1>Our trombones use the shiniest brass which is sourced
+            locally. This will increase the longevity of your purchase.</p1>
+    </div>
+    <div id="shipping">      
+        <h2><strong>Fast Shipping</strong></h2>
+            <p2>We make sure you receive your trombone as soon as we have
+            finished making it. We also provide free returns if you are 
+            not satisfied.</p2>
+    </div>
+        <div id="assurance">
+            <h3><strong>Quality Assurance</strong></h3>
+            <p3>for every purchase you make, we will ensure there are no damages
+            or faults and we will check and test the pitch of your instrument.</p3>
+        </div>
+        </section>
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+    </iframe>
+</div>
+<div class="row">
+    <div class="column">
+        <div id="instrument">TENOR TROMBONE</div>
+        <h1 id="price">$600</h1>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum dolor<br>
+        <br>Lorem ipsum<br>
+        <input name="price" type="submit" href="" value="SELECT"> 
+    </div>
+    <div class="column">
+        <div id="instrument">BASS TROMBONE</div>
+        <h1 id="price">$900</h1>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum<br>
+        <br>Lorem ipsum dolor<br>
+        <br>Lorem ipsum<br>
+        <input name="price" type="submit" href="" value="SELECT">
+    </div>
+    <div class="column">
+        <div id="instrument">VALVE TROMBONE</div>
+            <h1 id="price">$1200</h1>
+                <br>Plays similar to a Trumpet<br>
+                <br>Great for Jazz Bands<br>
+                <br>Lorem ipsum dolor<br>
+        <br>Lorem ipsum<br>
+        <input name="price" type="submit" href="" value="SELECT">
+    </div>
+</div>
+<footer>
+    <div class="copyright">
+        <div class="Privacy">Privacy</div>
+        <div class="Terms">Terms</div>
+        <div class="Contact">Contact</div>
+    </div>
+    <em>.Copyright 2016, Origical Trombones</em>
+</footer>
+</body>
+</html>
