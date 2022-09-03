@@ -1,4 +1,4 @@
-# HTML/CSS/JavaScript Projects
+# Free Code Camp Projects
 Hello!
 
 I have recently started to gain interest within the IT sector around mid 2022 and began to get my hands dirty by attempting to know basic HTML/CSS/JavaScript.
