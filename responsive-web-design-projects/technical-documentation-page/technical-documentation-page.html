@@ -34,25 +34,25 @@
                             <a class="nav-link" href="#Variable-scope">Variable scope</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Global variables                   </a>
+                            <a class="nav-link" href="#Global-variables">Global variables                   </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Constants</a>
+                            <a class="nav-link" href="#Constants">Constants</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Data types</a>
+                            <a class="nav-link" href="#Data-types">Data types</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">If...else statement</a>
+                            <a class="nav-link" href="#If-else">If...else statement</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">While statement</a>
+                            <a class="nav-link" href="#While-statement">While statement</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Function declarations</a>
+                            <a class="nav-link" href="#Function-declarations">Function declarations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="reference" href="#">Reference</a>
+                            <a class="nav-link" id="reference" href="#References">Reference</a>
                         </li>
                     </ul>
                 </div>
@@ -93,14 +93,14 @@
             </ul>
         </article>
         <article class="section">
-            <h1 class="subtitle">JavaScript and Java</h1>
+            <h1 class="subtitle" id="JavaScript-and-Java">JavaScript and Java</h1>
                 <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
                 <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
                 <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Hello world</h1>
+            <h1 class="subtitle" id="Hello-World">Hello world</h1>
                 <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
                 <code>
                     function greetMe(yourName) { alert("Hello " + yourName); } <br>
@@ -110,7 +110,7 @@ greetMe("World");
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Variables</h1>
+            <h1 class="subtitle" id="Variables">Variables</h1>
                 <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
 
                 </p>
@@ -122,7 +122,7 @@ greetMe("World");
                 </p>
         </article>
         <article class="section">
-            <h1 class="subtitle">Declaring variables
+            <h1 class="subtitle" id="Declaring-variables">Declaring variables
             </h1>
                 <p>You can declare a variable in three ways:</p>
                 <p>With the keyword var. For example,</p>
@@ -148,7 +148,7 @@ greetMe("World");
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Variable scope</h1>
+            <h1 class="subtitle" id="Variable-scope">Variable scope</h1>
                 <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
                 <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
                 <code>
@@ -164,7 +164,7 @@ not defined
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Global variables
+            <h1 class="subtitle" id="Global-variables">Global variables
             </h1>
                 <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.
 
@@ -175,7 +175,7 @@ not defined
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Constants</h1>
+            <h1 class="subtitle" id="Constants">Constants</h1>
                 <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
 
                 </p>
@@ -203,7 +203,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; <br>
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Data types</h1>
+            <h1 class="subtitle" id="Data-types">Data types</h1>
                 <p>The latest ECMAScript standard defines seven data types:
                 </p>
                     <ul>
@@ -230,7 +230,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; <br>
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">if...else statement
+            <h1 class="subtitle" id="If-else">if...else statement
             </h1>
                 <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:
                 </p>
@@ -264,7 +264,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; <br>
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">While statement</h1>
+            <h1 class="subtitle" id="While-statement">While statement</h1>
             <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
             </p>
             <code>while (condition) statement
@@ -301,7 +301,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; <br>
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Function declarations</h1>
+            <h1 class="subtitle" id="Function-declarations">Function declarations</h1>
                 <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
                 </p>
                 <ul>
@@ -328,7 +328,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; <br>
         </article>
         <br>
         <article class="section">
-            <h1 class="subtitle">Reference</h1>
+            <h1 class="subtitle" id="References">Reference</h1>
                 <ul>
                     <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
                 </ul>
