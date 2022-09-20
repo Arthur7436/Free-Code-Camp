@@ -1,0 +1,29 @@
+html
+body {
+    background-color: #ffffff;
+}
+
+header {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 1rem;
+}
+
+#navbar {
+    border-right: solid #4d4e53 3px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4d4e53 !important;
+    line-height: 2;
+    border-bottom: #4d4e53 solid 1px;
+
+}
+
+
+
+#reference {
+    border-bottom: none;
+}
