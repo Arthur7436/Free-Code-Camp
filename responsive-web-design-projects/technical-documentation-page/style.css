@@ -55,7 +55,7 @@ border-right also fits whole page */
 }
 
 /* main info section */
-main {
+main > section > article {
     margin-left: 360px;
     display: block;
     font-family: var(--bs-blurb-font-family);
@@ -64,4 +64,25 @@ main {
 
 section {
     display: block;
+}
+
+.introduction {
+    margin-top: -50px;
+}
+
+article > h1 {
+    font-size: 25px;
+}
+
+article > ul {
+    margin-left: 40px;
+}
+
+.subtitle {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#what-know-list {
+    line-height: 2.5;
 }
