@@ -24,9 +24,15 @@ header {
     
 }
 
+
 #navbar {
     width: 300px;
     position: fixed;
+}
+
+#navbar ul {
+    overflow-x:auto; 
+    overflow-y:scroll;
 }
 
 /* navbar to stick to side whilst scrolling
@@ -38,7 +44,6 @@ border-right also fits whole page */
     /* width: 300px; */
     height: 100%; 
     position: fixed; 
-    overflow: auto; 
     border-right: solid #4d4e53 2px;
     border-top: solid #4d4e53 1px;
   }
