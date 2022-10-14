@@ -10,9 +10,18 @@ nav {
     margin-left: 20px;
 }
 
-.nav-link:hover {
-    background: black;
+li:hover {
+    background: #45567d;
+    padding-top: 100%;
+    margin-top: -100%;
+    padding-bottom: 2%;
+    margin-bottom: -2%;
     
+}
+
+#introduction {
+    background-color: wheat;
+    padding: 16rem;
 }
 
 
