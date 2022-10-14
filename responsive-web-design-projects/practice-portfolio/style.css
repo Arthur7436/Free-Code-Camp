@@ -1,6 +1,6 @@
 nav {
     background-color: #be1344;
-    
+    position: sticky;
 }
 
 #nav-title {
@@ -21,7 +21,12 @@ li:hover {
 
 #introduction {
     background-color: wheat;
-    padding: 16rem;
+    padding: 15rem;
+}
+
+img {
+    margin-left: 700px;
+    margin-bottom: 100px ;
 }
 
 
