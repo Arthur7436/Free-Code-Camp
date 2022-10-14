@@ -1,0 +1,19 @@
+nav {
+    background-color: #be1344;
+    
+}
+
+#nav-title {
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    background: black;
+    
+}
+
+
+
