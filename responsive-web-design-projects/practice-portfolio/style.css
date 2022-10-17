@@ -47,7 +47,7 @@ img {
     padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
+    
     
 }
 
@@ -66,3 +66,8 @@ img {
     padding: 1rem 1rem
 }
 
+#contact {
+    background-color: #303841;
+    color: white;
+    padding: 7rem;
+}
