@@ -30,14 +30,30 @@ li:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p {
+#aspiring {
     color: #be1344;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #projects {
     background-color: #45567d;
     color: white;
+    padding: 7rem;
+    
 }
 
+img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+#project-heading {
+    background-color: #181719;
+    margin-top: -16px;
+    width: 370px;
+    margin-left: 23.5px;
+}
 
