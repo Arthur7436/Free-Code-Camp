@@ -70,4 +70,13 @@ img {
     background-color: #303841;
     color: white;
     padding: 7rem;
+    border-bottom: 5px solid;
+    border-color: #be1344;
+}
+
+footer {
+    background-color: #303841;
+    border-top: 10px;
+    color: white;
+    padding: 2rem;
 }
