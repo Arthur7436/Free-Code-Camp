@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@600&display=swap');
+
+:root {
+    --bs-font-title: 'Raleway', sans-serif;
+}
+
 nav {
     background-color: #be1344;
     position: sticky;
@@ -30,8 +36,15 @@ li:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#heading{
+    font-size: 50px; 
+    font-weight:900;
+    font-family: var(--bs-font-title);
+}
+
 #aspiring {
     color: #be1344;
+    font-weight: 200;
     font-size: 20px;
 }
 
@@ -40,6 +53,10 @@ li:hover {
     color: white;
     padding: 7rem;
     
+}
+
+.portfolio {
+    text-decoration: underline;
 }
 
 img {
