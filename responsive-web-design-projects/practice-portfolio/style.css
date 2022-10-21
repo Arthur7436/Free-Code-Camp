@@ -3,7 +3,7 @@
 :root {
     --bs-font-title: 'Raleway', sans-serif;
 }
-
+/* NAVBAR */
 nav {
     background-color: #be1344;
     position: sticky;
@@ -25,6 +25,7 @@ li:hover {
     
 }
 
+/* INTRODUCTION */
 #introduction {
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
@@ -48,41 +49,39 @@ li:hover {
     font-size: 20px;
 }
 
-#projects {
+/* PORTFOLIO */
+#portfolio {
     background-color: #45567d;
-    color: white;
     padding: 7rem;
-    
 }
 
-.portfolio {
+.portfolio-heading {
+    color: white;
+    text-decoration: underline;
+}
+.card {
+    --bs-card-border-width:0px !important;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-title {
     text-decoration: underline;
 }
 
-img {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    
-    
-}
 
-.link {
-    text-decoration: none;
-    font-family: sans-serif;
-}
 
-#project-heading {
-    background-color: #303841;
-    margin-top: -16px;
-    margin-right: 24px;
-    margin-left: 24px;
-    height: 50px;
-    color: white;
-    padding: 1rem 1rem
-}
 
+
+
+
+
+
+
+
+
+
+
+/* CONTACT */
 #contact {
     background-color: #303841;
     color: white;
@@ -91,6 +90,7 @@ img {
     border-color: #be1344;
 }
 
+/* FOOTER */
 footer {
     background-color: #303841;
     border-top: 10px;
