@@ -2,13 +2,23 @@
 
 :root {
     --bs-font-title: 'Raleway', sans-serif;
+    --bs-base-red: #be1344;
 }
+
+html {
+    background-color: #303841;
+}
+
 
 
 /* NAVBAR */
 nav {
-    background-color: #be1344;
-    position: sticky;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    transition: top 0.3s;
 }
 
 #nav-title {
@@ -18,8 +28,9 @@ nav {
     margin-left: 20px;
 }
 
+
 li:hover {
-    background: #45567d;
+    /* background: #45567d; */
     padding-top: 100%;
     margin-top: -100%;
     padding-bottom: 2.0%;
@@ -27,10 +38,18 @@ li:hover {
     
 }
 
+.hover-red:hover {
+    color: var(--bs-base-red) !important;
+}
+
 /* INTRODUCTION */
-#introduction {
+#background {
     background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    /* background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); */
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
     color: white;
     padding: 27rem;
     align-items: center;
@@ -39,6 +58,8 @@ li:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 #heading{
     font-size: 50px; 
     font-weight:900;
@@ -46,7 +67,7 @@ li:hover {
 }
 
 #aspiring {
-    color: #be1344;
+    color: var(--bs-base-red);
     font-weight: 200;
     font-size: 20px;
 }
@@ -73,11 +94,18 @@ li:hover {
     color: white;
     padding: 7rem;
     border-bottom: 5px solid;
-    border-color: #be1344;
+    border-color: var(--bs-base-red);
 }
 
 .fa {
-    filter:brightness(0), invert(1)
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa:hover { 
+    color: var(--bs-base-red);
+    transition: color 0.3s ease-in-out;
+
 }
 
 /* FOOTER */
