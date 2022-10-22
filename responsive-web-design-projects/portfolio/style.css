@@ -76,6 +76,12 @@ li:hover {
 
 /* ABOUT  */
 
+/* TIMELINE */
+
+#timeline-heading {
+    padding: 5rem;
+}
+
 html, body {
     background-color: var(--bs-background-gray) !important;
     height: 100%;
