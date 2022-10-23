@@ -326,6 +326,17 @@ Main components
   }
 }
 
+#first-date {
+  margin-left: 150px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+#second-date {
+  margin-right: 150px;
+  margin-top: 40px;
+  font-size: 30px;
+}
 
 
 /* PORTFOLIO */
