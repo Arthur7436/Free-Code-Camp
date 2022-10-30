@@ -1,5 +1,5 @@
 # Free Code Camp Projects
-Hello! Thanks for visiting my first ever repository :D
+Hello friend! Thanks for visiting my first ever repository :D
 
 I have recently started to gain serious interest towards the IT sector around mid 2022 and began to get my hands dirty by attempting to know HTML5/CSS3/JavaScript.
 
