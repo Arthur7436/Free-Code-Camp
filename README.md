@@ -10,6 +10,8 @@ Date written: 2/08/2022
 + HTML
 + CSS 
 + Bootstrap 5
++ Git
++ VSCode
 
 ## Projects completed
 + Tribute page
